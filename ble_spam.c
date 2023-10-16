@@ -291,6 +291,30 @@ static Attack attacks[] = {
                     },
             },
     },
+	
+	{
+        .title = "Mr. Verjans found",
+        .text = "persoonlijke aanval",
+        .payload =
+            {
+                .random_mac = true,
+                .protocol = &ble_spam_protocol_swiftpair,
+                .msg =
+                    {
+                        .swiftpair = {},
+                    },
+            },
+    },
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 };
 
 #define ATTACK_COUNT ((signed)COUNT_OF(attacks))

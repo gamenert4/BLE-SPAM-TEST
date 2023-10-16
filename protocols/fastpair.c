@@ -19,12 +19,11 @@ void fastpair_make_packet(uint8_t* out_size, uint8_t** out_packet, const BleSpam
     } else {
         const uint32_t models[] = {
             // Genuine devices
-           // 0xCD8256, // Bose NC 700
-           // 0xF52494, // JBL Buds Pro
-           // 0x718FA4, // JBL Live 300TWS
-           // 0x821F66, // JBL Flip 6
-           // 0x92BBBD, // Pixel Buds
-            0x2BEEA05B,
+            0xCD8256, // Bose NC 700
+            0xF52494, // JBL Buds Pro
+            0x718FA4, // JBL Live 300TWS
+            0x821F66, // JBL Flip 6
+            0x92BBBD, // Pixel Buds
 
             // Custom debug popups
             //0xAA1FE1, // ClownMaster

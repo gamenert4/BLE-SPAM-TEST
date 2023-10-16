@@ -19,7 +19,7 @@ void swiftpair_make_packet(uint8_t* out_size, uint8_t** out_packet, const BleSpa
     } else {
         const char* names[] = {
             //"test",
-            "SWIFTPAIR ATTACK",
+            "Guy Verjans",
         };
         display_name = names[rand() % COUNT_OF(names)];
     }
